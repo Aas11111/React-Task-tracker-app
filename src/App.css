@@ -1,38 +1,106 @@
+/* body {
+  font-family: sans-serif;
+} */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 1.5rem;
+  /* text-align: center; */
+  width: 80%;
+  height: 80%;
+  /* margin: auto auto; */
+  /* border: 2px solid black; */
+  font-size: 1.4rem;
+  /* font-family: sans-serif; */
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+  /* bottom: 17rem; */
+
+  background-color: #f3f4f6;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 75rem) {
+  /* CSS rules for screens with a width of 1200 pixels or less */
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    /* text-align: center; */
+    width: 80%;
+    height: 80%;
+    /* margin: auto auto; */
+    /* border: 2px solid black; */
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    position: absolute;
+    top: 2rem;
+    left: 6.6rem;
+    /* bottom: 17rem; */
+
+    background-color: #f3f4f6;
+  }
+}
+@media screen and (max-width: 62.25rem) {
+  /* CSS rules for screens with a width of 900 pixels or less */
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    /* text-align: center; */
+    width: 80%;
+    height: 80%;
+    /* margin: auto auto; */
+    /* border: 2px solid black; */
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    /* bottom: 17rem; */
+
+    background-color: #f3f4f6;
+  }
+}
+@media screen and (max-width: 38rem) {
+  /* CSS rules for screens with a width of 600 pixels or less */
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    /* text-align: center; */
+    width: 80%;
+    height: 80%;
+    /* margin: auto auto; */
+    /* border: 2px solid black; */
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    position: absolute;
+    top: 2rem;
+    left: 3.2rem;
+    /* bottom: 17rem; */
+
+    background-color: #f3f4f6;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* --color-grey-0: #fff;
+--color-grey-50: #f9fafb;
+--color-grey-100: #f3f4f6;
+--color-grey-200: #e5e7eb;
+--color-grey-300: #d1d5db;
+--color-grey-400: #9ca3af;
+--color-grey-500: #6b7280;
+--color-grey-600: #4b5563;
+--color-grey-700: #374151;
+--color-grey-800: #1f2937;
+--color-grey-900: #111827; */

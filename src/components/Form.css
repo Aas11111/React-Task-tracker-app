@@ -1,0 +1,171 @@
+h3 {
+  padding-bottom: 1.6rem;
+  font-family: sans-serif;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-family: sans-serif;
+  margin-bottom: 1.5rem;
+}
+input[type="text"] {
+  height: 2rem;
+  width: 9rem;
+  background-color: #e5e7eb;
+  color: #5a3e2b;
+
+  border: none;
+  border-radius: 1rem;
+  padding: 0.3rem 0.2rem;
+  padding-left: 0.6rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  outline: none;
+  font-family: sans-serif;
+}
+input[type="date"] {
+  height: 2rem;
+  width: 9rem;
+  background-color: #e5e7eb;
+  color: #5a3e2b;
+
+  border: none;
+  border-radius: 1rem;
+  padding: 0.3rem 0.2rem;
+  padding-left: 0.6rem;
+  font-weight: 550;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.add-form button {
+  text-transform: uppercase;
+  height: 3rem;
+  width: 6rem;
+  background-color: #e5e7eb;
+  color: #5a3e2b;
+  font-family: inherit;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.3rem 0.2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.add-form button:hover {
+  background-color: #9ca3af;
+  color: white;
+}
+
+@media screen and (max-width: 62.25rem) {
+  /* CSS rules for screens with a width of 900 pixels or less */
+
+  input[type="text"] {
+    height: 1.4rem;
+    width: 6.5rem;
+
+    border-radius: 0.9rem;
+    padding: 0.3rem 0.7rem;
+
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  input[type="date"] {
+    height: 1.4rem;
+    width: 6.5rem;
+
+    border-radius: 0.9rem;
+    padding: 0.3rem 0.7rem;
+
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  .add-form button {
+    height: 2.4rem;
+    width: 5rem;
+
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  /* CSS rules for screens with a width of 640 pixels or less */
+
+  input[type="text"] {
+    height: 1.2rem;
+    width: 5.7rem;
+
+    border-radius: 0.9rem;
+    padding: 0.3rem 0.7rem;
+
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+
+  input[type="date"] {
+    height: 1.2rem;
+    width: 5.7rem;
+
+    border-radius: 0.9rem;
+    padding: 0.3rem 0.7rem;
+
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .add-form button {
+    height: 2.1rem;
+    width: 4rem;
+
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 32.5rem) {
+  /* CSS rules for screens with a width of 520 pixels or less */
+
+  input[type="text"] {
+    height: 1rem;
+    width: 4.2rem;
+
+    border-radius: 0.9rem;
+    padding: 0.3rem 0.7rem;
+
+    font-weight: 500;
+    font-size: 0.5rem;
+  }
+
+  input[type="date"] {
+    height: 1rem;
+    width: 5.3rem;
+
+    border-radius: 0.9rem;
+    padding: 0.4rem 0.7rem;
+
+    font-weight: 700;
+    font-size: 0.6rem;
+  }
+  .add-form button {
+    height: 1.8rem;
+    width: 3rem;
+
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
